@@ -55,3 +55,36 @@ nav a {
 .cart img {
   width: 22px;
 }
+/* === Hero === */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-top: 140PX;
+}
+
+.hero-text h1 .highlight {
+  color: #F35D5D;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hero-img img {
+  width: 500px;
+  object-fit: contain;
+}
